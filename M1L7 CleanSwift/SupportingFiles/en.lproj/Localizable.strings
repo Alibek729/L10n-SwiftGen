@@ -9,3 +9,5 @@
 "Authorization.auth" = "Authorization";
 "Authorization.password" = "Password";
 "Authorization.login" = "Login";
+
+"Filter.description" = "Filter \"%@\"";

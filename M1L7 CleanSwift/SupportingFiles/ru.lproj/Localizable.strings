@@ -9,3 +9,5 @@
 "Authorization.auth" = "Авторизация";
 "Authorization.password" = "Пароль";
 "Authorization.login" = "Логин";
+
+"Filter.description" = "Применен фильтр \"%@\"";

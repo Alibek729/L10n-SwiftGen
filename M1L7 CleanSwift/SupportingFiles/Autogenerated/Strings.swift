@@ -21,6 +21,12 @@ internal enum L10n {
     /// Password
     internal static let password = L10n.tr("Localizable", "Authorization.password", fallback: "Password")
   }
+  internal enum Filter {
+    /// Filter "%@"
+    internal static func description(_ p1: Any) -> String {
+      return L10n.tr("Localizable", "Filter.description", String(describing: p1), fallback: "Filter \"%@\"")
+    }
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces

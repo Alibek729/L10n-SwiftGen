@@ -112,6 +112,7 @@ private extension LoginViewController {
 		button.addTarget(self, action: #selector(login), for: .touchUpInside)
 		button.translatesAutoresizingMaskIntoConstraints = false
 
+		print(L10n.Filter.description("Some filter"))
 		return button
 	}
 
