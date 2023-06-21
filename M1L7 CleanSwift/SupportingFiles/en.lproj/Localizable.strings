@@ -6,5 +6,6 @@
   
 */
 
-"Login" - "Login"
-
+"Authorization.auth" = "Authorization";
+"Authorization.password" = "Password";
+"Authorization.login" = "Login";
