@@ -35,6 +35,7 @@
 		67860D8F2A41B1B800FF2156 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860D8E2A41B1B800FF2156 /* Sizes.swift */; };
 		67860D932A41B61400FF2156 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 67860D922A41B61400FF2156 /* PinLayout */; };
 		67860D9A2A42B0D700FF2156 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67860D9C2A42B0D700FF2156 /* Localizable.strings */; };
+		67860D9F2A42B37200FF2156 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860D9E2A42B37200FF2156 /* String+Localized.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		67860D962A42ACD800FF2156 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		67860D9B2A42B0D700FF2156 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		67860D9D2A42B16000FF2156 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		67860D9E2A42B37200FF2156 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				67860D8B2A41ACE800FF2156 /* UIViewController + Preview.swift */,
+				67860D9E2A42B37200FF2156 /* String+Localized.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67860CBC2A38809500FF2156 /* M1L7_CleanSwift.xcdatamodeld in Sources */,
+				67860D9F2A42B37200FF2156 /* String+Localized.swift in Sources */,
 				67860CD02A39734E00FF2156 /* LoginModels.swift in Sources */,
 				67860CF32A3B661500FF2156 /* TaskRepository.swift in Sources */,
 				67860CCE2A39734300FF2156 /* LoginPresenter.swift in Sources */,
