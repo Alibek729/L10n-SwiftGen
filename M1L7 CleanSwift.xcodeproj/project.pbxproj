@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6776B85C2A43500F002B8E16 /* UIColor + Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776B85B2A43500F002B8E16 /* UIColor + Hex.swift */; };
+		6776B85E2A43525D002B8E16 /* UIColorHexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776B85D2A43525D002B8E16 /* UIColorHexTests.swift */; };
 		67860CB22A38809500FF2156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860CB12A38809500FF2156 /* AppDelegate.swift */; };
 		67860CB42A38809500FF2156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67860CB32A38809500FF2156 /* SceneDelegate.swift */; };
 		67860CBC2A38809500FF2156 /* M1L7_CleanSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67860CBA2A38809500FF2156 /* M1L7_CleanSwift.xcdatamodeld */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		6776B85B2A43500F002B8E16 /* UIColor + Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Hex.swift"; sourceTree = "<group>"; };
+		6776B85D2A43525D002B8E16 /* UIColorHexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHexTests.swift; sourceTree = "<group>"; };
 		67860CAE2A38809500FF2156 /* M1L7 CleanSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M1L7 CleanSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67860CB12A38809500FF2156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67860CB32A38809500FF2156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				67860D822A406C0E00FF2156 /* LoginScene */,
+				6776B85D2A43525D002B8E16 /* UIColorHexTests.swift */,
 			);
 			path = "M1L7 CleanSwiftTests";
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67860D862A40786100FF2156 /* LoginViewControllerTest.swift in Sources */,
+				6776B85E2A43525D002B8E16 /* UIColorHexTests.swift in Sources */,
 				67860D842A406CC700FF2156 /* LoginPresenterTest.swift in Sources */,
 				67860D7C2A40626300FF2156 /* LoginInteractorTest.swift in Sources */,
 			);
