@@ -108,7 +108,7 @@ private extension LoginViewController {
 		button.configuration = .filled()
 		button.configuration?.cornerStyle = .medium
 		button.configuration?.baseBackgroundColor = .red
-		button.configuration?.title = "Login"
+		button.configuration?.title = NSLocalizedString("Login", comment: "")
 		button.addTarget(self, action: #selector(login), for: .touchUpInside)
 		button.translatesAutoresizingMaskIntoConstraints = false
 
