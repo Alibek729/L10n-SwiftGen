@@ -18,3 +18,9 @@ protocol NetworkRequest {
 	/// Параметры запроса.
 	var parameters: Parameters { get }
 }
+
+/// Расширение с пустым HTTP заголовком, для удобства составления запросов без заголовка.
+extension NetworkRequest {
+	/// Значение HTTPHeaders по умолчанию
+	public var header: HTTPHeader? { nil }
+}
