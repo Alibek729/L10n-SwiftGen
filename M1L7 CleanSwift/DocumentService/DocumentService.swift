@@ -6,3 +6,28 @@
 //
 
 import Foundation
+
+protocol IDocumentService {
+	func upload()
+	func download(id: String)
+	func delete(id: String)
+	func fileList()
+}
+
+struct DocumentService: IDocumentService {
+	func upload() {
+		<#code#>
+	}
+
+	func download(id: String) {
+		<#code#>
+	}
+
+	func delete(id: String) {
+		<#code#>
+	}
+
+	func fileList() {
+		<#code#>
+	}
+}
