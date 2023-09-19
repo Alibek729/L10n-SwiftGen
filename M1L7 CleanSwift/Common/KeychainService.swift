@@ -10,7 +10,7 @@ import Security
 
 struct KeychainService {
 	
-	func sevePassword(service: String, account: String, secret: String) -> Bool {
+	func saveSecret(service: String, account: String, secret: String) -> Bool {
 		let keychainItem = [
 			kSecAttrService: service,
 			kSecAttrAccount: account,
@@ -22,7 +22,7 @@ struct KeychainService {
 		return status == errSecSuccess
 	}
 
-	func getPassword(service: String, account: String) -> String? {
+	func getSecret(service: String, account: String) -> String? {
 		let query = [
 			kSecAttrService: service,
 			kSecAttrAccount: account,
@@ -41,7 +41,7 @@ struct KeychainService {
 		}
 	}
 
-	func deletePassword(service: String, account: String) -> Bool {
+	func deleteSecret(service: String, account: String) -> Bool {
 		let query = [
 			kSecAttrService: service,
 			kSecAttrAccount: account,
@@ -52,7 +52,7 @@ struct KeychainService {
 		return status == errSecSuccess
 	}
 
-	func updatePassword(service: String, account: String, password: String) -> Bool {
+	func updateSecret(service: String, account: String, secret: String) -> Bool {
 		let query = [
 			kSecAttrService: service,
 			kSecAttrAccount: account,
@@ -60,7 +60,7 @@ struct KeychainService {
 		] as CFDictionary
 
 		let field = [
-			kSecValueData: password.data(using: .utf8)!
+			kSecValueData: secret.data(using: .utf8)!
 		] as CFDictionary
 
 		let status = SecItemUpdate(query, field)
