@@ -21,6 +21,6 @@ protocol NetworkRequest {
 
 /// Расширение с пустым HTTP заголовком, для удобства составления запросов без заголовка.
 extension NetworkRequest {
-	/// Значение HTTPHeaders по умолчанию
+	/// Значение HTTPHeaders по умолчанию.
 	public var header: HTTPHeader? { nil }
 }
