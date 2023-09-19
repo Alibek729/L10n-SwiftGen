@@ -12,7 +12,7 @@ public typealias HTTPHeader = [String: String]
 /// Поля HTTP-заголовка. Содержит список часто используемых полей заголовка для устранения хардкода и избежания ошибок написания полей.
 public enum HeaderField {
 	/// Авторизация, содержит токен и используется для OAuth2 авторизации
-	case authorization(String)
+	case authorization(AuthToken)
 	/// Тип контента, содержит тип к
 	case contentType(ContentType)
 
@@ -30,7 +30,7 @@ public enum HeaderField {
 	public var value: String {
 		switch self {
 		case .authorization(let token):
-			return "Bearer \(token)"
+			return "Bearer \(token.rawValue)"
 		case .contentType(let contentType):
 			return contentType.value
 		}
